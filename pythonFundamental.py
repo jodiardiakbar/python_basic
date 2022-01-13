@@ -1,31 +1,31 @@
-# # list comprehension
-# list1 = [x ** 2 for x in range(10)]
-# print(f"list1 = {list1}")
-#
-# list2 = [x ** 2 for x in range(10) if x > 5]
-# print(f"list2 = {list2}")
-#
-# # set comprehension
-# set1 = {x ** 2 for x in range(10)}
-# print(f"set1 = {set1}")
-#
-# # dictionary comprehension
-# dict1 = {x: x ** 2 for x in range(10)}
-# print(f"dict1 = {dict1}")
-#
-# # lambda function
-# add_function = lambda x, y: x + y
-# print(add_function(5, 3))
-#
-# # map(function, sequence)
-# map_result = map(lambda a: a * 10, range(10))
-# print(f"map_result = {list(map_result)}")
-#
-# # filter(function, sequence)
-# filter_result1 = filter(lambda a: a * 10, range(10))
-# print(f"filter_result1 = {list(filter_result1)}")
-# filter_result2 = filter(lambda b: b > 5, range(10))
-# print(f"filter_result2 = {list(filter_result2)}")
+# list comprehension
+list1 = [x ** 2 for x in range(10)]
+print(f"list1 = {list1}")
+
+list2 = [x ** 2 for x in range(10) if x > 5]
+print(f"list2 = {list2}")
+
+# set comprehension
+set1 = {x ** 2 for x in range(10)}
+print(f"set1 = {set1}")
+
+# dictionary comprehension
+dict1 = {x: x ** 2 for x in range(10)}
+print(f"dict1 = {dict1}")
+
+# lambda function
+add_function = lambda x, y: x + y
+print(add_function(5, 3))
+
+# map(function, sequence)
+map_result = map(lambda a: a * 10, range(10))
+print(f"map_result = {list(map_result)}")
+
+# filter(function, sequence)
+filter_result1 = filter(lambda a: a * 10, range(10))
+print(f"filter_result1 = {list(filter_result1)}")
+filter_result2 = filter(lambda b: b > 5, range(10))
+print(f"filter_result2 = {list(filter_result2)}")
 
 # generators
 def gen_demo():
