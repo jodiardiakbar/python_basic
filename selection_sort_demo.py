@@ -1,3 +1,8 @@
+# gunakan marker pada index 0
+# geser nilai terkecil ke index 0
+# setelah mencapai index -1, geser marker satu index ke kanan
+# ulangi
+
 def selection_sort(arr):
     marker = 0
     while marker < len(arr):
