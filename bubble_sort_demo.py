@@ -1,3 +1,7 @@
+# gunakan outer loop
+# gunakan inner loop
+# geser nilai terbesar ke index -1
+
 def bubble_sort(arr):
     swap_happened = True
     while swap_happened:
